@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ShareYou2.Identity", "ShareYou2.Identity\ShareYou2.Identity.sfproj", "{CA9CC011-6198-410C-944D-34522FEBD3D0}"
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ShareYou2.Identity", "src\ShareYou2.Identity\ShareYou2.Identity.sfproj", "{CA9CC011-6198-410C-944D-34522FEBD3D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityTokenWeb", "src\SecurityTokenWeb\SecurityTokenWeb.csproj", "{AC9428D9-A4C9-4C92-8C41-E2F199B5B949}"
 EndProject
