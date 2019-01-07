@@ -20,7 +20,7 @@ namespace SecurityTokenWeb
                 // When Service Fabric creates an instance of this service type,
                 // an instance of the class is created in this host process.
 
-                ServiceRuntime.RegisterServiceAsync("SecurityTokenWebType",
+                ServiceRuntime.RegisterServiceAsync("SecurityTokenWebType", 
                     context => new SecurityTokenWeb(context)).GetAwaiter().GetResult();
 
                 ServiceEventSource.Current.ServiceTypeRegistered(Process.GetCurrentProcess().Id, typeof(SecurityTokenWeb).Name);
