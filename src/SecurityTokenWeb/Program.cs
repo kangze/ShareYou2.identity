@@ -11,7 +11,7 @@ namespace SecurityTokenWeb
         /// <summary>
         /// This is the entry point of the service host process.
         /// </summary>
-        private static void Main()
+        private static void Main() 
         {
             try
             {
