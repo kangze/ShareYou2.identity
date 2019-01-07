@@ -30,6 +30,7 @@ namespace SecurityTokenWeb
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
             //定时测试
+            //定时测试2
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddIdentityServer();//need config
