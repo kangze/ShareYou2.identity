@@ -29,7 +29,7 @@ namespace SecurityTokenWeb
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
+            //定时测试
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddIdentityServer();//need config
